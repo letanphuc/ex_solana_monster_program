@@ -1,0 +1,12 @@
+**/node_modules/
+*.so
+.idea/
+.DS_Store
+*.lock
+target/.rustc_info.json
+target/CACHEDIR.TAG
+target/bpfel-unknown-unknown/
+target/idl/
+target/release/
+target/rls/
+target/types/

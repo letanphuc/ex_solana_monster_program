@@ -1,0 +1,30 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/script/catchNewMonster.ts",
+  "scripts": {
+    "newmonster": "ts-node src/script/catchNewMonster.ts",
+    "rename": "ts-node src/script/renameMonster.ts",
+    "release": "ts-node src/script/releaseMonster.ts",
+    "transfer": "ts-node src/script/transferMyMonster.ts",
+    "showMyMonster": "ts-node src/script/showMyMonster.ts",
+    "showallmonster": "ts-node src/script/showAllMonster.ts",
+    "attack": "ts-node src/script/attackOtherMonster.ts",
+    "rent": "ts-node src/script/rentMyMonster.ts",
+    "borrowAttack": "ts-node src/script/borrowAttackOtherMonster.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@project-serum/anchor": "^0.19.1-beta.1",
+    "@solana/web3.js": "^1.31.0",
+    "crypto-js": "^4.1.1",
+    "image-hash": "^4.0.1",
+    "sha512": "^0.0.1",
+    "ts-node": "^10.4.0"
+  },
+  "devDependencies": {
+    "@types/crypto-js": "^4.1.0"
+  }
+}
